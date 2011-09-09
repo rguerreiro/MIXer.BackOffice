@@ -1,0 +1,37 @@
+﻿@{
+    Layout = "Layout.cshtml";
+}
+
+<h2>Login</h2>
+<p>Please enter your user name and password.</p>
+
+<form method="POST">
+    <div>
+        <fieldset>
+            <legend>Account Information</legend>
+
+            <div class="editor-label">
+                <span>Username</span>
+            </div>
+            <div class="editor-field">
+                <input type="text" name="Username" />
+            </div>
+
+            <div class="editor-label">
+                <span>Password</span>
+            </div>
+            <div class="editor-field">
+                <input type="text" name="Password" />
+            </div>
+
+            <div class="editor-label">
+                <input type="checkbox" name="RememberMe" />
+                <span>Remember me?</span>
+            </div>
+
+            <p>
+                <input type="submit" value="Submit" />
+            </p>
+        </fieldset>
+    </div>
+</form>

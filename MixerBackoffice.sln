@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{B6A40A07-4EE6-4D69-80E6-599229433EBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mixer.BackOffice", "Source\Mixer.BackOffice\Mixer.BackOffice.csproj", "{11D920F5-B2D5-491C-9C8A-9138F6BAB51C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11D920F5-B2D5-491C-9C8A-9138F6BAB51C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11D920F5-B2D5-491C-9C8A-9138F6BAB51C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11D920F5-B2D5-491C-9C8A-9138F6BAB51C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11D920F5-B2D5-491C-9C8A-9138F6BAB51C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{11D920F5-B2D5-491C-9C8A-9138F6BAB51C} = {B6A40A07-4EE6-4D69-80E6-599229433EBB}
+	EndGlobalSection
+EndGlobal

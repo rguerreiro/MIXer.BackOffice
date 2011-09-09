@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>#MIXer BackOffice</title>
+    <link rel="stylesheet" href='@Url.Content("~/css/site.css")' type="text/css" media="screen"/>
+</head>
+<body>
+    <div class="page">
+        <header>
+            <div id="title">
+                <h1>#MIXer BackOffice</h1>
+            </div>
+            <div id="logindisplay">
+            @if(@Model.IsAuthenticated) {
+                <text>Welcome <strong>@Model.Username</strong>!
+                [ <a href="logout">Logout</a> ]</text>
+            }
+            else {
+                @:[ <a href="login">Login</a> ]
+            }
+            </div>
+            <nav>
+                <ul id="menu">
+                    <li><a href="">Home</a></li>
+                    <li><a href="backoffice">Admin</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section id="main">
+            @RenderBody()
+        </section>
+        <footer>
+        </footer>
+    </div>
+</body>
+</html>
